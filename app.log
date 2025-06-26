@@ -603,3 +603,210 @@ Best regards,
 Your Name
 2025-06-26 15:32:49,442 - INFO - 127.0.0.1 - - [26/Jun/2025 15:32:49] "POST / HTTP/1.1" 200 -
 2025-06-26 15:55:53,905 - INFO -  * Detected change in 'E:\\PRJ\\ai-mail-gen1\\ai-mail-gen\\app.py', reloading
+2025-06-26 15:55:54,782 - INFO -  * Restarting with stat
+2025-06-26 15:55:56,362 - DEBUG - API token loaded: hf_i...auof
+2025-06-26 15:55:56,362 - DEBUG - InferenceClient initialized successfully with fireworks-ai
+2025-06-26 15:56:01,596 - INFO - Use pytorch device_name: cpu
+2025-06-26 15:56:01,596 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-26 15:56:01,596 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-26 15:56:02,580 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 15:56:02,619 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 15:56:03,214 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-06-26 15:56:03,246 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-06-26 15:56:03,519 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-06-26 15:56:03,587 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2025-06-26 15:56:04,185 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 15:56:04,232 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 15:56:04,562 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-06-26 15:56:04,595 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2025-06-26 15:56:04,873 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-06-26 15:56:05,135 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-06-26 15:56:05,181 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2025-06-26 15:56:06,138 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-06-26 15:56:06,170 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2025-06-26 15:56:06,435 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-06-26 15:56:06,743 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6867
+2025-06-26 15:56:07,020 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6867
+2025-06-26 15:56:07,024 - DEBUG - Embeddings initialized successfully
+2025-06-26 15:56:07,024 - DEBUG - Loaded and split 2 document chunks
+2025-06-26 15:56:07,138 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-06-26 15:56:07,140 - INFO - Loading faiss with AVX2 support.
+2025-06-26 15:56:07,156 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-26 15:56:07,156 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 15:56:07,156 - DEBUG - FAISS vector store and retriever initialized
+2025-06-26 15:59:15,996 - INFO - Received prompt: i am sick with feaver form today to day after tomorrow(mention dates), recipient: Professor Smith)
+2025-06-26 15:59:16,104 - DEBUG - Retrieved context: Subject: Assignment Submission Confirmation
+Body: Dear Professor, I am pleased to confirm that I have submitted my assignment for [Course Name] on [Submission Date]. Please let me know if you require any additional information. Best regards, [Your Name]
+
+Subject: Request for Meeting
+Body: Dear Professor, I hope you are doing well. I would like to schedule a meeting to discuss my progress in [Course Name]. Please let me know a convenient time for you. Best regards, [Your Name]
+Subject: Request for Grade Review
+Body: Dear Professor, I hope this message finds you well. I am writing to respectfully request a review of my grade for [Course Name] as I believe there may be an error in the marks portal. Could we please discuss this at your earliest convenience? Best regards, [Your Name]
+2025-06-26 15:59:16,109 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-26 15:59:16,799 - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/DeepSeek-R1?expand=inferenceProviderMapping HTTP/1.1" 200 753
+2025-06-26 15:59:16,805 - DEBUG - Starting new HTTPS connection (1): router.huggingface.co:443
+2025-06-26 15:59:25,509 - DEBUG - https://router.huggingface.co:443 "POST /fireworks-ai/inference/v1/chat/completions HTTP/1.1" 200 None
+2025-06-26 15:59:25,512 - INFO - InferenceClient raw output: <think>
+Okay, let me figure out how to help the user. They need an email to inform their professor that they're sick and can't attend from today until day after tomorrow. The user mentioned specific dates, so I should make sure to include those.
+
+Looking at the retrieved templates, none are exactly about sickness, but there are some about assignments, meetings, and grade reviews. The closest might be the Assignment Submission Confirmation, but the structure here would be different. The user needs to inform about absence, not submit work.
+
+I should start with a subject line that clearly states the purpose. Maybe "Absence Due to Illness" or something similar. The body needs to be polite, state the reason, dates, and possibly ask about missed work. 
+
+The user mentioned dates "from today to day after tomorrow," but the current date isn't provided. Since the example templates use placeholders like [Submission Date], maybe I should format the dates as [Today's Date] to [Day After Tomorrow's Date]. Wait, but the user might expect actual dates. Hmm, but the instructions don't say to use placeholders. Wait, the user's prompt says "mention dates" so they probably want specific dates filled in. But since the current date isn't given, how do I handle that? Wait, the user's prompt states: "i am sick with feaver form today to day after tomorrow(mention dates)". So they want the dates mentioned, but since the current date isn't specified, maybe use placeholders or assume today's date. However, the assistant can't know the actual dates without the current date. So perhaps the user expects to have [Start Date] and [End Date] placeholders. But looking at the examples given in the context templates, like [Course Name], [Submission Date], etc., the assistant should use placeholders. So in the email, replace the dates with [Today's Date] and [Day After Tomorrow's Date], but the user might not have provided those. Wait, the user's prompt says "from today to day after tomorrow(mention dates)" which likely means they want the actual dates written out. But without knowing the current date, the assistant can't fill that in. Therefore, perhaps the solution is to prompt the user to insert the specific dates. But according to the instructions, the email should be generated based on the user's input. So, maybe the user expects placeholders like [Start Date
+2025-06-26 15:59:25,512 - DEBUG - Cleaned output: <think>
+Okay, let me figure out how to help the user. They need an email to inform their professor that they're sick and can't attend from today until day after tomorrow. The user mentioned specific dates, so I should make sure to include those.
+
+Looking at the retrieved templates, none are exactly about sickness, but there are some about assignments, meetings, and grade reviews. The closest might be the Assignment Submission Confirmation, but the structure here would be different. The user needs to inform about absence, not submit work.
+
+I should start with a subject line that clearly states the purpose. Maybe "Absence Due to Illness" or something similar. The body needs to be polite, state the reason, dates, and possibly ask about missed work. 
+
+The user mentioned dates "from today to day after tomorrow," but the current date isn't provided. Since the example templates use placeholders like [Submission Date], maybe I should format the dates as [Today's Date] to [Day After Tomorrow's Date]. Wait, but the user might expect actual dates. Hmm, but the instructions don't say to use placeholders. Wait, the user's prompt says "mention dates" so they probably want specific dates filled in. But since the current date isn't given, how do I handle that? Wait, the user's prompt states: "i am sick with feaver form today to day after tomorrow(mention dates)". So they want the dates mentioned, but since the current date isn't specified, maybe use placeholders or assume today's date. However, the assistant can't know the actual dates without the current date. So perhaps the user expects to have [Start Date] and [End Date] placeholders. But looking at the examples given in the context templates, like [Course Name], [Submission Date], etc., the assistant should use placeholders. So in the email, replace the dates with [Today's Date] and [Day After Tomorrow's Date], but the user might not have provided those. Wait, the user's prompt says "from today to day after tomorrow(mention dates)" which likely means they want the actual dates written out. But without knowing the current date, the assistant can't fill that in. Therefore, perhaps the solution is to prompt the user to insert the specific dates. But according to the instructions, the email should be generated based on the user's input. So, maybe the user expects placeholders like [Start Date
+2025-06-26 15:59:25,512 - WARNING - Invalid output format after cleaning
+2025-06-26 15:59:25,516 - INFO - 127.0.0.1 - - [26/Jun/2025 15:59:25] "POST / HTTP/1.1" 200 -
+2025-06-26 17:07:09,817 - DEBUG - API token loaded: hf_i...auof
+2025-06-26 17:07:09,817 - DEBUG - InferenceClient initialized successfully with fireworks-ai
+2025-06-26 17:07:43,391 - INFO - Use pytorch device_name: cpu
+2025-06-26 17:07:43,391 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-26 17:07:43,394 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-26 17:07:43,775 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 17:07:43,805 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 17:07:44,092 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-06-26 17:07:44,236 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-06-26 17:07:44,637 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-06-26 17:07:44,696 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2025-06-26 17:07:44,978 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 17:07:45,018 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 17:07:45,287 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-06-26 17:07:45,331 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2025-06-26 17:07:45,612 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-06-26 17:07:45,948 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-06-26 17:07:46,013 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2025-06-26 17:07:46,974 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-06-26 17:07:47,019 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2025-06-26 17:07:47,352 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-06-26 17:07:47,662 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6867
+2025-06-26 17:07:47,941 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6867
+2025-06-26 17:07:47,943 - DEBUG - Embeddings initialized successfully
+2025-06-26 17:07:47,943 - DEBUG - Loaded and split 2 document chunks
+2025-06-26 17:07:48,114 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-06-26 17:07:48,116 - INFO - Loading faiss with AVX2 support.
+2025-06-26 17:07:50,798 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-26 17:07:50,798 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 17:07:50,798 - DEBUG - FAISS vector store and retriever initialized
+2025-06-26 17:07:50,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.136.207:10000
+2025-06-26 17:07:50,811 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-26 17:10:27,248 - DEBUG - API token loaded: hf_i...auof
+2025-06-26 17:10:27,248 - DEBUG - InferenceClient initialized successfully with fireworks-ai
+2025-06-26 17:10:31,796 - INFO - Use pytorch device_name: cpu
+2025-06-26 17:10:31,796 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-26 17:10:31,796 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-26 17:10:32,228 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 17:10:32,284 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 17:10:32,560 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-06-26 17:10:32,609 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-06-26 17:10:32,909 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-06-26 17:10:32,974 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2025-06-26 17:10:33,239 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 17:10:33,276 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 17:10:33,579 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-06-26 17:10:33,626 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2025-06-26 17:10:33,901 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-06-26 17:10:34,168 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-06-26 17:10:34,217 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2025-06-26 17:10:35,184 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-06-26 17:10:35,248 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2025-06-26 17:10:35,518 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-06-26 17:10:35,951 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6867
+2025-06-26 17:10:36,223 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6867
+2025-06-26 17:10:36,226 - DEBUG - Embeddings initialized successfully
+2025-06-26 17:10:36,228 - DEBUG - Loaded and split 2 document chunks
+2025-06-26 17:10:36,310 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-06-26 17:10:36,310 - INFO - Loading faiss with AVX2 support.
+2025-06-26 17:10:36,337 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-26 17:10:36,343 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 17:10:36,345 - DEBUG - FAISS vector store and retriever initialized
+2025-06-26 17:10:36,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.136.207:10000
+2025-06-26 17:10:36,370 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-26 17:10:36,372 - INFO -  * Restarting with stat
+2025-06-26 17:10:37,944 - DEBUG - API token loaded: hf_i...auof
+2025-06-26 17:10:37,946 - DEBUG - InferenceClient initialized successfully with fireworks-ai
+2025-06-26 17:10:43,379 - INFO - Use pytorch device_name: cpu
+2025-06-26 17:10:43,379 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-26 17:10:43,380 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-26 17:10:43,752 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 17:10:43,799 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 17:10:44,198 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-06-26 17:10:44,241 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-06-26 17:10:44,532 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-06-26 17:10:44,580 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2025-06-26 17:10:44,922 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-06-26 17:10:44,986 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-06-26 17:10:45,256 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-06-26 17:10:45,402 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2025-06-26 17:10:45,687 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-06-26 17:10:45,951 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-06-26 17:10:46,016 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2025-06-26 17:10:47,067 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-06-26 17:10:47,127 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2025-06-26 17:10:47,422 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-06-26 17:10:47,732 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6867
+2025-06-26 17:10:48,020 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6867
+2025-06-26 17:10:48,022 - DEBUG - Embeddings initialized successfully
+2025-06-26 17:10:48,022 - DEBUG - Loaded and split 2 document chunks
+2025-06-26 17:10:48,136 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-06-26 17:10:48,138 - INFO - Loading faiss with AVX2 support.
+2025-06-26 17:10:48,152 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-26 17:10:48,160 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 17:10:48,160 - DEBUG - FAISS vector store and retriever initialized
+2025-06-26 17:10:48,162 - WARNING -  * Debugger is active!
+2025-06-26 17:10:48,168 - INFO -  * Debugger PIN: 299-344-771
+2025-06-26 17:10:58,836 - INFO - 127.0.0.1 - - [26/Jun/2025 17:10:58] "GET / HTTP/1.1" 200 -
+2025-06-26 17:10:59,705 - INFO - 127.0.0.1 - - [26/Jun/2025 17:10:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-26 17:11:09,068 - INFO - Received prompt: I believe there is an error in my grading, recipient: Professor Smith
+2025-06-26 17:11:09,171 - DEBUG - Retrieved context: Subject: Request for Grade Review
+Body: Dear Professor, I hope this message finds you well. I am writing to respectfully request a review of my grade for [Course Name] as I believe there may be an error in the marks portal. Could we please discuss this at your earliest convenience? Best regards, [Your Name]
+Subject: Assignment Submission Confirmation
+Body: Dear Professor, I am pleased to confirm that I have submitted my assignment for [Course Name] on [Submission Date]. Please let me know if you require any additional information. Best regards, [Your Name]
+
+Subject: Request for Meeting
+Body: Dear Professor, I hope you are doing well. I would like to schedule a meeting to discuss my progress in [Course Name]. Please let me know a convenient time for you. Best regards, [Your Name]
+2025-06-26 17:11:09,173 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-26 17:11:09,523 - DEBUG - https://huggingface.co:443 "GET /api/models/deepseek-ai/DeepSeek-R1?expand=inferenceProviderMapping HTTP/1.1" 200 753
+2025-06-26 17:11:09,525 - DEBUG - Starting new HTTPS connection (1): router.huggingface.co:443
+2025-06-26 17:11:15,476 - DEBUG - https://router.huggingface.co:443 "POST /fireworks-ai/inference/v1/chat/completions HTTP/1.1" 200 None
+2025-06-26 17:11:15,481 - INFO - InferenceClient raw output: <think>
+Alright, the user wants to write an email about a possible grading error. Let me check the templates provided. There's a "Request for Grade Review" template with a subject and body. The user's prompt is straightforward: they believe there's an error in their grade.
+
+I should start by using the subject line from the grade review template: "Request for Grade Review". The body should be polite and professional. The template starts with a greeting, mentions the request, asks for a discussion, and signs off. I need to make sure to include the course name, but since the user didn't specify, I'll leave it as [Course Name] as a placeholder.
+
+Let me structure the email. Address the professor, state the belief of an error, reference the grade in the portal, and ask for a discussion. Keep it concise. Avoid any markdown or extra formatting. Use placeholders where necessary, like [Course Name]. Make sure the tone is respectful and not confrontational. The sign-off should be "Best regards, [Your Name]".
+
+Check if there's any other relevant template. The other templates are about assignment confirmation and meeting requests, but not directly related. Stick with the grade review template, adapt it to the user's prompt. Ensure all placeholders are consistent. No need to add anything else beyond the request. Keep it straightforward and professional.
+</think>
+
+Subject: Request for Grade Review  
+Body: Dear Professor,  
+I hope this message finds you well. I am writing to respectfully request a review of my grade for [Course Name], as I believe there may be an error in the marks portal. Could we please discuss this at your earliest convenience?  
+
+Best regards,  
+[Your Name]
+2025-06-26 17:11:15,481 - DEBUG - Cleaned output: Subject: Request for Grade Review  
+Body: Dear Professor,  
+I hope this message finds you well. I am writing to respectfully request a review of my grade for [Course Name], as I believe there may be an error in the marks portal. Could we please discuss this at your earliest convenience?  
+
+Best regards,  
+[Your Name]
+2025-06-26 17:11:15,481 - INFO - Generated email - Subject: Request for Grade Review, Body: Dear Professor,  
+I hope this message finds you well. I am writing to respectfully request a review of my grade for [Course Name], as I believe there may be an error in the marks portal. Could we please discuss this at your earliest convenience?  
+
+Best regards,  
+Your Name
+2025-06-26 17:11:15,481 - INFO - 127.0.0.1 - - [26/Jun/2025 17:11:15] "POST / HTTP/1.1" 200 -
+2025-06-26 17:13:03,255 - INFO -  * Detected change in 'E:\\PRJ\\ai-mail-gen1\\ai-mail-gen\\app.py', reloading
