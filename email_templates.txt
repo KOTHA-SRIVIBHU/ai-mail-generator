@@ -1,0 +1,8 @@
+Subject: Request for Grade Review
+Body: Dear Professor, I hope this message finds you well. I am writing to respectfully request a review of my grade for [Course Name] as I believe there may be an error in the marks portal. Could we please discuss this at your earliest convenience? Best regards, [Your Name]
+
+Subject: Assignment Submission Confirmation
+Body: Dear Professor, I am pleased to confirm that I have submitted my assignment for [Course Name] on [Submission Date]. Please let me know if you require any additional information. Best regards, [Your Name]
+
+Subject: Request for Meeting
+Body: Dear Professor, I hope you are doing well. I would like to schedule a meeting to discuss my progress in [Course Name]. Please let me know a convenient time for you. Best regards, [Your Name]

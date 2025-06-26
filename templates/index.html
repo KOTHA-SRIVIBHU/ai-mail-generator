@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Mail Generator</title>
+</head>
+<body>
+    <h1>AI Mail Generator</h1>
+    <form method="POST">
+        <label for="prompt">Enter your prompt (e.g., I believe there is an error in my grading):</label><br>
+        <textarea name="prompt" rows="4" cols="50" required></textarea><br>
+        <label for="recipient">Recipient Name (e.g., Professor Smith):</label><br>
+        <input type="text" name="recipient" required><br><br>
+        <input type="submit" value="Generate Email">
+    </form>
+    {% if email_subject %}
+    <h2>Generated Email</h2>
+    <p><strong>Subject:</strong> {{ email_subject }}</p>
+    <p><strong>Body:</strong></p>
+    <pre>{{ email_body }}</pre>
+    {% endif %}
+</body>
+</html>
