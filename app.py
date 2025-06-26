@@ -154,4 +154,5 @@ Use the following context to generate a polite and professional email:
     return render_template("index.html", email_subject="", email_body="")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)

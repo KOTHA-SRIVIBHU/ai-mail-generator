@@ -602,3 +602,4 @@ I am writing to inform you that I am unwell with a fever and will be unable to a
 Best regards,  
 Your Name
 2025-06-26 15:32:49,442 - INFO - 127.0.0.1 - - [26/Jun/2025 15:32:49] "POST / HTTP/1.1" 200 -
+2025-06-26 15:55:53,905 - INFO -  * Detected change in 'E:\\PRJ\\ai-mail-gen1\\ai-mail-gen\\app.py', reloading
